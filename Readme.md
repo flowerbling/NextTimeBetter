@@ -1,6 +1,8 @@
 # 环境配置
 
-## 安装依赖
+## 后端
+
+### 安装依赖
 
 ```bash
 pip install poetry
@@ -10,8 +12,21 @@ pip install poetry
 poetry install
 ```
 
-## 运行
+### 运行
 
 ```bash
 poetry run start
+```
+
+## 前端
+
+### 安装依赖
+```bash
+cd frontend
+npm install
+```
+
+### 运行
+```bash
+npm run serve
 ```
